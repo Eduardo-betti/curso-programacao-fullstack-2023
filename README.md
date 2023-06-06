@@ -1,4 +1,4 @@
-# Promocao Fullstack
+# Programacao Fullstack
 
 ```
 Este é o repositorio do curso de programação fullstack JavaScript

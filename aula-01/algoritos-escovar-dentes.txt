@@ -1,0 +1,18 @@
+1 - pegar a escova
+2 - pegar a pasta de dente
+3 - colocar a pasta na escova
+4 - abrir a torneira
+5 - molhar a escova
+6 - fechar a torneira
+7 - colocar a escova na boca
+8 - fazer movimentos no lado superior e inferior
+9 - escovar a lingua
+10 - cospir os residuos da pasta de dente
+11 - lavar a escova
+12 - com a mao encher de agua e colcoar ate a boca
+13 - gargarejar 
+14 - cospir
+15 - guardar a escova
+16 - pegar a tolha
+17 - secar a boca
+18 - guardar a toalha

@@ -1,0 +1,29 @@
+<script>
+  class Pessoa {
+    constructor(nome, idade, profissao) {
+      this.nome = nome;
+      this.idade = idade;
+      this.profissao = profissao;
+    }
+    acaoPessoa() {
+      return ``;
+    }
+  }
+  const arrayPessoas = [];
+  const continuar = 0;
+  while (continuar === quantidadeUsuarios) {
+    const nome = prompt('digite o nome da pessoa:');
+    const idade = prompt('digite a idade:');
+    const profissao = prompt('digite sua profissão:');
+    const quantidadeUsuarios = prompt('Digite a quantidade de usuarios que deseja adicionar:');
+    const pessoa = new Pessoa(nome, idade, profissao)
+    arrayPessoas.push(pessoa)
+
+    if (Pessoa === quantidadeUsuarios) {
+      break;
+    }
+  }
+  console.log(arrayPessoas);
+
+
+</script>

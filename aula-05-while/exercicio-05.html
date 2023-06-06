@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=], initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- Escreva um programa que solicite ao usuário que digite a senha correta. Repita
+essa solicitação até que o usuário acerte a senha. -->
+
+  <script>
+    let senha = 'Eduardo'
+    let novamente = String(prompt('Digite sua senha:'));
+
+    while (novamente != senha) {
+      novamente = String(prompt('Digite errada novamente a senha:'))
+    }
+    document.write('a senha está correta');
+  </script>
+
+</body>
+
+</html>

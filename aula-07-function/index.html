@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let numero1 = Number(prompt('Digite o Primeiro Numero:'));
+    let numero2 = Number(prompt('Digite o Segundo Numero'));
+    let op = String(prompt('Digite o operador:'));
+
+    function calculo(n1, n2, op) {
+      switch (op) {
+        case '+':
+          return soma = n1 + n2
+          document.write(soma);
+          break;
+        case '-':
+          return menos = n1 - n2
+          document.write(menos);
+          break;
+        case '/':
+          return divisao = n1 / n2
+          document.write(divisao);
+          break;
+        case '*':
+          return multiplicacao = n1 * n2
+          document.write(multiplicacao);
+          break;
+        default:
+          document.write('O operador digitado não foi reconhecido')
+      }
+    }
+    calculo(numero1, numero2, op)
+  </script>
+</body>
+
+</html>

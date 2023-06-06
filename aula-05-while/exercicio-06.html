@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=], initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- Escreva um programa que solicite ao usuário que adivinhe um número entre 1 e
+10. Exiba uma mensagem de "maior" ou "menor" até que o usuário acerte o
+número.
+ -->
+
+  <script>
+    let numero = Number(prompt('Digite um numero até 10:'));
+    let escolhido = 8;
+
+    while (numero != escolhido) {
+      if (numero <= escolhido) {
+        document.write('O numero é menor')
+      }
+      if (numero >= escolhido) {
+        document.write('O numero é maior que 6');
+      }
+    }
+    document.write('o numero está correto');
+
+    // let = String(prompt('Digite errada novamente a senha:'))
+  </script>
+
+</body>
+
+</html>
