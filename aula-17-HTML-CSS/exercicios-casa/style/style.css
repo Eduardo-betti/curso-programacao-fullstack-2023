@@ -1,0 +1,38 @@
+html,
+body,
+ul {
+  position: relative;
+  margin: 5px;
+  padding: 20;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+}
+li,
+a,
+body {
+  margin-top: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.contender {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  grid-gap: 3px;
+  background-color: rgba(184, 156, 156, 0.217);
+}
+
+.contender .lista {
+  grid-column: 1;
+}
+
+.contender .img {
+  grid-column: 2/3;
+  margin-top: 2%;
+}
