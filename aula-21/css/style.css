@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.quadrado {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  padding: 10px;
+  display: inline-block;
+  border: solid 0.5rem lightblue;
+}
+.azul {
+  background-color: #0000c833;
+}
+.vermelho {
+  background-color: rgb(206, 22, 22);
+}
+.amarelo {
+  background-color: rgba(212, 212, 38, 0.8);
+}
