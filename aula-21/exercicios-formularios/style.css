@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.formu-principal {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  background-color: aqua;
+  padding: 20px;
+}

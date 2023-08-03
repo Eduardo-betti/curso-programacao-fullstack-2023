@@ -1,0 +1,21 @@
+Crie um formulário com campos de entrada para o nome, e-mail e mensagem
+do usuário.
+2. Inclua um campo de entrada numérica para que o usuário insira sua idade.
+3. Crie um grupo de botões de opção para que o usuário selecione seu gênero
+(masculino ou feminino).
+4. Adicione um campo de entrada de data para que o usuário selecione uma
+data específica.
+5. Crie um campo de entrada para que o usuário faça o upload de um arquivo.
+6. Adicione um campo de entrada de senha com uma máscara para mostrar os
+caracteres digitados.
+7. Crie uma caixa de verificação que esteja marcada por padrão.
+8. Insira um campo de entrada oculto com um valor predefinido.
+9. Crie um campo de entrada para que o usuário selecione uma cor.
+10. Inclua um campo de entrada para que o usuário insira um endereço de e-mail
+válido com uma dica (placeholder).
+11. Crie um grupo de botões de opção para que o usuário escolha a linguagem
+de programação preferida.
+12. Crie um campo de entrada para que o usuário insira sua altura em
+centímetros com um valor mínimo.(min, max);
+13. crie uma área simples de cadastro de usuário com: Nome, sobrenome, login e
+senha
