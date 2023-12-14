@@ -1,20 +1,39 @@
-"use strict";
+'use strict';
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    id: {
-      type: serial;
-      
-    }
+    await queryInterface.createTable('movies', {
+      id: {
+        type: Sequelize.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+        allowNull: false,
+      },
+      title: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      // FOTO IMG
+      poster: {
+        type: Sequelize.STRING,
+      },
+      // DESCRIÇÃO
+      overview: {
+        type: Sequelize.TEXT,
+      },
+      CreatedAt: {
+        allowNull: false,
+        type: Sequelize.DATE,
+      },
+      uptatedAt: {
+        allowNull: false,
+        type: Sequelize.DATE,
+      },
+    });
   },
 
   async down(queryInterface, Sequelize) {
-    /**
-     * Add reverting commands here.
-     *
-     * Example:
-     * await queryInterface.dropTable('users');
-     */
+    await queryInterface.dropTable('movies');
   },
 };
